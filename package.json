@@ -4,8 +4,9 @@
   "description": "Cypress Automation Challenge",
   "main": "index.js",
   "scripts": {
+    "pretest": "npm install",
     "cy:open": "npx cypress open",
-    "cy:run": "npx cypress run --browser chrome"
+    "test": "npx cypress run"
   },
   "keywords": [
     "Alina",

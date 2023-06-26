@@ -23,5 +23,5 @@ npm run cy:open
 2. Run tests
 
 ```
-npm run cy:run
+npm run test
 ```
