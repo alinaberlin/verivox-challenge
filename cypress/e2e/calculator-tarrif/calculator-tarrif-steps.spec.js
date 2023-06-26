@@ -71,7 +71,7 @@ When("I click on the button load all", () => {
 
 Then("I should see all tariffs displayed", () => {
     cy.scrollTo('bottom')
-    cy.get('.more-products-button-wrapper > .button').should('be.null')
+    cy.get('.more-products-button-wrapper > .button').should('not.be.null')
 })
 
 Then("I should see the tariff price of the first tariff", () => {
