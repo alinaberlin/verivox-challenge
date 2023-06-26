@@ -44,6 +44,7 @@ Then("I enter my zip code", () => {
 Then("I click the Jetzt vergleichen button", () => {
     cy.scrollTo(0, 500)
     cy.get('.button').contains("Jetzt vergleichen").wait(400).click({ force: true })
+    cy.get('.button').contains("Jetzt vergleichen").click({ force: true })
     cy.wait(20000)
 })
 
